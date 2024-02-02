@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.utest.web.alexandralozanoimmigrationlaw.runners.FillFormUtestRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="JULIANBR" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/co.com.utest.web.alexandralozanoimmigrationlaw/features/fill_form.feature:6 ?[0m# successfully fill out the utest form
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[32m2 passed?[0m)
+0m27,908s
+
+java.lang.AssertionError: error message
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
+	at co.com.utest.web.alexandralozanoimmigrationlaw.stepdefinitions.FillFormUtestStepDefinitions.viewMessage(FillFormUtestStepDefinitions.java:46)
+	at ?.the user will be shown the message: <Welcome to the world's largest community of freelance software testers!>(src/test/resources/co.com.utest.web.alexandralozanoimmigrationlaw/features/fill_form.feature:9)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/julia/.gradle/caches/7.4/generated-gradle-jars/gradle-api-7.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/julia/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.7/8095d0b9f7e0a9cd79a663c740e0f8fb31d0e2c8/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.gradle.internal.logging.slf4j.OutputEventListenerBackedLoggerContext]
+]]></system-err>
+</testsuite>
